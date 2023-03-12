@@ -1,0 +1,165 @@
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+#about div::-webkit-scrollbar,
+.hobby-container div::-webkit-scrollbar {
+  width: 12px;
+}
+
+#about div::-webkit-scrollbar-track,
+.hobby-container div::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0 20px 20px 0;
+}
+
+#about div::-webkit-scrollbar-thumb,
+.hobby-container div::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0 20px 20px 0;
+}
+
+body {
+  background-image: url('../img/bg_1.jpg');
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+nav {
+  display: contents;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 10px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+#about,
+#hobby {
+  display: flex;
+}
+
+#about img,
+#hobby img {
+  margin-bottom: 5px;
+}
+
+.hobby-container div,
+.about-container div {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 500px;
+  border-radius: 20px 0 0 20px;
+  width: 418px;
+  margin-bottom: 20px;
+}
+
+.hobby-container,
+.about-container {
+  display: flex;
+}
+
+.hobby-container p {
+  width: 430px;
+}
+
+.about-container p {
+  width: 1300px;
+}
+
+#hobby {
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.last-hobby,
+.nav_header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a,
+main a {
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 20px;
+  color: black;
+}
+
+main a {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+nav a:hover,
+main a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+a img {
+  width: 50px;
+  height: 50px;
+}
+
+div p, .main_plans{
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  font-size: 24px;
+  text-align: center;
+  font-style: oblique;
+  display: flex;
+  align-items: center;
+}
+
+footer p,
+#plans center,
+.nav_header {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  display: contents;
+}
