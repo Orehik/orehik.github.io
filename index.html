@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,82 +10,73 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header id="top">
-    <h4>Олег Демченко</h4>
+  <header>
     <nav>
-      <a href="#about">Обо мне</a>
-      <a href="#hobby">Хобби</a>
-      <a href="#plans">Планы на будущее</a>
-      <a href="#contacts">Контакты</a>
+      <a href="#about_me" class="animation_1">Обо мне</a>
+      <a href="#experience" class="animation_2">Опыт разработки</a>
+      <a href="#hobby" class="animation_3">Хобби</a>
+      <a href="#contacts" class="animation_4">Контакты</a>
     </nav>
+    <img src="img/Main_photo.jpg" alt="pfoto">
   </header>
   <main>
-    <a href="#top">Наверх</a>
-    <article>
-      <p class="nav_header">Обо мне</p>
-      <section id="about">
-        <div class="about-container">
-        <div>
-          <img src="img/Main_photo.jpg" alt="Main_photo">
-          <img src="img/Second_photo.jpg" alt="Second_photo">
-          <img src="img/Third_photo.jpg" alt="Third_photo">
-        </div>
-        <p>Меня зовут Олег, мне 28 лет. Проживаю в Белгородской области город Шебекино. Закончил БГТУ им.В.Г.Шухова по
+    <article class="about_me" id="about_me">
+      <p>Обо мне</p>
+      <aside class="about_me_container">
+        <section class="description">Меня зовут Олег, мне 28 лет. Проживаю в Белгородской области город Шебекино.
+          Закончил БГТУ им.В.Г.Шухова по
           направлению "Техносферная Безопасность" в степени Магистра. Сейчас работаю по специальности. Сам по себе
-          весёлый, люблю шутить, отзывчивый, вгеда готов помочь. В свободное время люблю узнавать что-то новое,
-          проводить время с девушкой и друзьями, играть в настольные игры, курить кальян, смотреть сериалы и фильмы.</p>
+          весёлый, люблю шутить, отзывчивый, всегда готов помочь. В свободное время люблю узнавать что-то новое,
+          проводить время с девушкой и друзьями, играть в настольные игры, курить кальян, смотреть сериалы и фильмы.
+        </section>
+        <section><img src="img/Second_photo.jpg" alt="Second_photo"></section>
+      </aside>
+    </article>
+    <article class="experience" id="experience">
+      <p>Опыт разработки</p>
+      <section>
+        <div class="progress">
+          <div class="html">HTML 95%</div>
         </div>
-      </section>
-      <p class="nav_header">Хобби</p>
-      <section id="hobby">
-        <div class="hobby-container">
-          <div>
-            <img src="img/Fishing_2.jpg" alt="Fishing">
-            <img src="img/Fishing_1.jpg" alt="Fishing">
-            <img src="img/Fishing_3.jpg" alt="Fishing">
-          </div>
-          <p>Люблю рыбалку. Конечно я не профессионал, для меня это больше для расслабления и отвлечения. Когда находишься на
-            природе у воды - всё это хорошо успокаивает.</p>
+        <div class="progress">
+          <div class="css">CSS 75%</div>
         </div>
-        <div class="hobby-container">
-          <div>
-            <img src="img/Book_1.jpg" alt="Books">
-            <img src="img/Book_2.jpg" alt="Books">
-            <img src="img/Book_3.jpg" alt="Books">
-          </div>
-          <p>Очень люблю читать. Особенно нравится читать фантастику, тёмное фентези, Warhammer 40k. Один из любимых
-            авторов Сэнди Митчвелл. Сейчас продолжаю читать книгу этого-же автора "За Императора", но времени читать к
-            сожалению нет.</p>
+        <div class="progress">
+          <div class="JavaScript">JavaScript 20%</div>
         </div>
-        <div class="hobby-container last-hobby">
-          <div>
-            <img src="img/Cat_1.jpg" alt="Сat">
-            <img src="img/Cat_2.jpg" alt="Сat">
-            <img src="img/Cat_3.jpg" alt="Сat">
-          </div>
-          <p>Дома у родителей есть 2 кота и 1 кошка. На первом фото кошка Лёля, она уже старенькая, поэтому ей всё
-            простительно. На втором фото кот Флуф, он плакса, ему никогда ничего не нравится. И на третьем фото кот
-            Борис, боевой котяра, бьет всех чужих котов и ловит всё что бегает, летает и ползает.</p>
-        </div>
-      </section>
-      <section id="plans">
-        <p class="nav_header">Мои планы на будущее</p>
-        <p class="main_plans">Хочу закончить Elbrus Bootcamp, стать разработчиком и сменить сверу деятельности. Хочу немного
-          попутешествовать чтобы посмотреть другие города или страны. Ещё хочу одно из хобби заняться либо сельским
-          хозяйством, садоводством либо пчеловодством.</p>
       </section>
     </article>
+    <article class="hobby" id="hobby">
+      <p>Хобби</p>
+      <aside class="hobby_container">
+        <section class="hobby_description">
+          <span>Очень люблю читать. Особенно нравится читать фантастику, тёмное фентези, Warhammer 40k. Один из любимых
+            авторов Сэнди Митчвелл. Сейчас продолжаю читать книгу этого-же автора "За Императора", но времени читать к
+            сожалению нет.</span><br>
+          <span>Люблю рыбалку. Конечно я не профессионал, для меня это больше для расслабления и отвлечения. Когда
+            находишься на
+            природе у воды - всё это хорошо успокаивает.</span>
+        </section>
+        <section class="hobby_photo">
+          <img src="img/Book_1.jpg" alt="Books">
+          <img src="img/Book_2.jpg" alt="Books">
+          <img src="img/Book_3.jpg" alt="Books">
+          <img src="img/Fishing_2.jpg" alt="Fishing">
+          <img src="img/Fishing_1.jpg" alt="Fishing">
+          <img src="img/Fishing_3.jpg" alt="Fishing">
+        </section>
+      </aside>
+    </article>
+    <a href="#">Наверх</a>
   </main>
-  <footer>
-    <p id="contacts" class="nav_header">Контакты</p>
+  <footer class="contacts">
+    <p id="contacts">Контакты</p>
     <div>
-      <a href="https://vk.com/olegkaoregka"><img src="img/Vk.png" alt="Вконтакте"></a>
+      <a href="https://www.linkedin.com/in/oleg-demchenko-538b95269/"><img src="img/in.png" alt="linkedin"></a>
       <a href="https://t.me/demchenko_oleg"><img src="img/Telegram.png" alt="Телеграмм"></a>
       <a href="https://github.com/Orehik"><img src="img/Git.png" alt="GitHub"></a>
     </div>
   </footer>
 </body>
-
 </html>
